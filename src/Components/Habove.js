@@ -46,9 +46,9 @@ function Habove() {
     cc.current.style.background = colors[i];
     setTimeout(() => {
       setI(i + 1 < 4 ? i + 1 : 0);
+
     }, 5000);
-    console.log(c.current[i]);
-  }, [cards]);
+  }, [i]);
   return (
     <div className="flex w-full justify-center items-center flex-col">
       <div className="w-[90%] rounded-2xl m-5 bg-[#232323] grid grid-cols-4 gap-[1rem] py-2">

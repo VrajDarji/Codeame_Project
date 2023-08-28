@@ -1,6 +1,9 @@
+import Grids from "./Grids";
 import Habove from "./Habove";
+import Hl1 from "./Hl1";
 import Hlow from "./Hlow";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -8,6 +11,9 @@ function Home() {
       <Nav />
       <Habove />
       <Hlow />
+      <Hl1 />
+      <Grids />
+      <Footer />
     </div>
   );
 }

@@ -37,3 +37,21 @@ p {
 .hl1 {
   grid-template-columns: 30% 70%;
 }
+.h1 {
+  grid-template-columns: 40% 60%;
+}
+.g1 {
+  grid-template-columns: 60% 40%;
+}
+.g2 {
+  grid-template-columns: 40% 60%;
+}
+.f {
+  grid-template-columns: 75% 25%;
+}
+.f1 {
+  grid-template-columns: 30% 70%;
+}
+.in {
+  background: linear-gradient(#4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
+}
