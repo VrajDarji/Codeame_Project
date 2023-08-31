@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   const nav = ["home", "course", "mentorship", "about"];
   return (
-    <div className="w-full h-[8vh] flex rounded-tr-lg px-5 justify-between items-center">
+    <div className="w-full flex rounded-tr-lg px-5 justify-between items-center py-4">
       <div className="flex flex-row gap-3 ">
         <Link to={"/"}>
           <button>

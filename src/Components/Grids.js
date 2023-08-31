@@ -3,8 +3,8 @@ import { Croissant, Plus } from "lucide-react";
 function Grids() {
   return (
     <div className="mx-[5%] w-[90%] flex flex-col gap-3 my-3">
-      <div className="grid w-full gap-3 h-[20vh] g1">
-        <div className="rounded-md px-4 py-4 bg-[#232323]">
+      <div className="grid w-full gap-3 g1">
+        <div className="rounded-md px-4 py-4 pb-16 bg-[#232323]">
           <div className="pb-3">
             <span className="px-3 rounded-xl bg-white">01</span>
           </div>
@@ -42,8 +42,8 @@ function Grids() {
           </div>
         </div>
       </div>
-      <div className="grid w-full gap-3 h-[20vh] g2">
-        <div className="rounded-md px-4 py-4 bg-[#232323]">
+      <div className="grid w-full gap-3 g2">
+        <div className="rounded-md px-4 py-4 pb-16  bg-[#232323]">
           <div className="pb-3">
             <span className="px-3 rounded-xl bg-white">03</span>
           </div>

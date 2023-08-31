@@ -55,7 +55,7 @@ function Habove() {
         <div className="px-3 py-3 flex flex-col gap-1">
           {a.map((e) => {
             return (
-              <div className="flex justify-between items-center text-[#a5a8a8]">
+              <div className="flex justify-between items-center text-[#a5a8a8] hover:text-[#feb629]">
                 <Link to={e}>
                   <p className="capitalize">{e}</p>
                 </Link>
@@ -67,7 +67,7 @@ function Habove() {
         <div className="px-3 py-3 flex flex-col gap-1">
           {a.map((e) => {
             return (
-              <div className="flex justify-between items-center text-[#a5a8a8]">
+              <div className="flex justify-between items-center text-[#a5a8a8] hover:text-[#feb629]">
                 <Link to={e}>
                   <p className="capitalize">{e}</p>
                 </Link>
@@ -79,7 +79,7 @@ function Habove() {
         <div className="px-3 py-3 flex flex-col gap-1">
           {a.map((e) => {
             return (
-              <div className="flex justify-between items-center text-[#a5a8a8]">
+              <div className="flex justify-between items-center text-[#a5a8a8] hover:text-[#feb629]">
                 <Link to={e}>
                   <p className="capitalize">{e}</p>
                 </Link>
@@ -107,7 +107,7 @@ function Habove() {
           </div>
         </div>
       </div>
-      <div className="w-[90%] flex rounded-lg bg-[#f3f3f2] h-[80vh] m-[5%] mt-6 flex-col gap-0">
+      <div className="w-[90%] flex rounded-lg bg-[#f3f3f2]  m-[5%] mt-6 flex-col gap-0 px-4 py-4 relative">
         <h1 className="uppercase text-[6.5rem] tracking-[4px] font-bold ml-[1.2rem] hh">
           learnify
         </h1>
@@ -149,8 +149,8 @@ function Habove() {
             </p>
           </div>
         </div>
-        <div className="absolute right-0 ">
-          <img src={logo} alt="" className="w-[45rem] drop-shadow-xl l" />
+        <div className="absolute right-0 flex justify-end h-[120%]">
+          <img src={logo} alt="" className="drop-shadow-xl l" />
         </div>
       </div>
     </div>
